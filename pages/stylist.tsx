@@ -1,11 +1,10 @@
 import Header from '../components/Header';
-import Login from '../components/Login';
 
-export default function Home() {
+export default function Stylist() {
   return (
     <div>
       <Header />
-      <Login />
+      <h1>AI Stylist Page</h1>
     </div>
   );
 }

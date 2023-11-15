@@ -1,11 +1,10 @@
 import Header from '../components/Header';
-import Login from '../components/Login';
 
-export default function Home() {
+export default function Closet() {
   return (
     <div>
       <Header />
-      <Login />
+      <h1>My Closet Page</h1>
     </div>
   );
 }
